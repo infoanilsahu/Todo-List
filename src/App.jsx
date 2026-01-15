@@ -1,7 +1,7 @@
 import { useState,useEffect, useRef } from 'react'
 import './App.css'
-import Navbar from './componenets/Navbar'
-import Main from './componenets/Main'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 
 function App() {
