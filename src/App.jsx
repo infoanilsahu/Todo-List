@@ -1,7 +1,6 @@
 import { useState,useEffect, useRef } from 'react'
-import './App.css'
 import Navbar from './components/Navbar'
-import Main from './components/Main'
+import Main from './components/Home'
 
 
 function App() {

@@ -8,7 +8,7 @@ import checkout from "../assets/checkout.svg";
 import menu from "../assets/menu.svg";
 import account from "../assets/account.svg";
 
-const Main = ({showFinsh,setshowFinsh,shownav,menuOpen,todo,settodo,todos,settodos}) => {
+export default function Home({showFinsh,setshowFinsh,shownav,menuOpen,todo,settodo,todos,settodos}) {
   const [error, seterror] = useState("");
   // const [todo, settodo] = useState("");
   // const [todos, settodos] = useState([]);
@@ -205,7 +205,7 @@ const Main = ({showFinsh,setshowFinsh,shownav,menuOpen,todo,settodo,todos,settod
   );
 };
 
-export default Main;
+
 
 // export default togglefinshed;
 
